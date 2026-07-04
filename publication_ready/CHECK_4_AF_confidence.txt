@@ -1,5 +1,0 @@
- "chain_iptm": [
- "chain_pair_iptm": [
- "chain_ptm": [
- "iptm": null,
- "ptm": 0.92,
