@@ -1,0 +1,70 @@
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.bak
+*.zip
+
+# system
+.DS_Store
+
+# full pipeline outputs (DO NOT PUSH)
+01_extract_proteins/
+02_size_filter/
+03_secretome/
+05_blastp/
+05_structure/
+06_active_site/
+07_docking/
+reports/
+rerun/
+results/
+
+# docking artifacts
+*.pdbqt
+*.sdf
+*_vina_log.txt
+NC_*.pdb
+PC_*.pdb
+complex_*.pdb
+
+# metadata dumps
+project_tree.txt
+pipeline_audit.txt
+project_inventory.txt
+all_scripts.txt
+all_fasta_files.txt
+figure_files.txt
+structure_files.txt
+folders.txt
+keep_ids.txt
+notebooks.txt
+scripts_preview.txt
+results_files.txt
+results_hmmer.txt
+
+# helper scripts (optional cleanup)
+organize_for_publication.sh
+check_pipeline.sh
+protein_properties.py
+
+# node junk
+node_modules/
+package-lock.json
+package.json
+
+# HMMER databases
+databases/
+external/
+tools/
+
+databases/
+external/
+tools/
+
+results/
+rerun/
+
+*.pdbqt
+*.sdf
+*_vina_log.txt

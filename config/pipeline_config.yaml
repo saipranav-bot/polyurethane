@@ -1,0 +1,17 @@
+genome_dir: data/raw/genomes
+
+protein_output: results/02_proteins
+secretome_output: results/03_secretome
+hmmer_output: results/04_hmmer
+
+signalp_output: results/03_secretome/signalp
+
+min_protein_length: 100
+signalp_organism_type: eukarya
+
+threads: 8
+
+paths:
+  signalp_bin: tools/signalp/signalp
+  tmhmm_bin: tools/tmhmm/tmhmm
+  hmm_db: databases/hmmer_db
