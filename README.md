@@ -109,7 +109,7 @@ publication_ready/
     figures/
     reports/
 
-08_figures/
+figures/
 ```
 
 ---
