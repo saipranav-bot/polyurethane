@@ -57,14 +57,3 @@ package.json
 databases/
 external/
 tools/
-
-databases/
-external/
-tools/
-
-results/
-rerun/
-
-*.pdbqt
-*.sdf
-*_vina_log.txt

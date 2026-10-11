@@ -2,7 +2,7 @@
 
 echo "===== POLYURETHANASE PIPELINE CLEANUP START ====="
 
-BASE=~/polyurethanase_pipeline
+BASE="${POLYURETHANE_BASE:-$HOME/polyurethanase_pipeline}"
 
 cd $BASE || exit
 

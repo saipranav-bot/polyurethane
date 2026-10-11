@@ -5,7 +5,7 @@
 # It monitors progress and tells you exactly when to move on.
 # ==============================================================
 
-BRAKER_DIR="${1:-~/polyurethanase_pipeline/01_genome/braker_out}"
+BRAKER_DIR="${1:-${POLYURETHANE_BASE:-$HOME/polyurethanase_pipeline}/01_genome/braker_out}"
 BRAKER_DIR=$(eval echo "$BRAKER_DIR")  # expand ~
 
 echo "========================================"

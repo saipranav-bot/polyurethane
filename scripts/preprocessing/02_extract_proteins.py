@@ -34,8 +34,11 @@ if len(sys.argv) > 1:
     BRAKER_AA = sys.argv[1]
 else:
     # Common default locations — try all
+    base = os.environ.get(
+        "POLYURETHANE_BASE", os.path.expanduser("~/polyurethanase_pipeline")
+    )
     candidates = [
-        os.path.expanduser("~/polyurethanase_pipeline/results/01_genome/braker_out/braker.aa"),
+        os.path.join(base, "results/01_genome/braker_out/braker.aa"),
         os.path.expanduser("~/braker_out/braker.aa"),
         "braker_out/braker.aa",
         "braker.aa",
