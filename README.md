@@ -180,3 +180,7 @@ GitHub: https://github.com/saipranav-bot
 ## License
 
 This project is released under the MIT License.
+
+
+## Plain-English Explanation
+See [EXPLAIN_PLAIN_ENGLISH.md](EXPLAIN_PLAIN_ENGLISH.md) for a non-technical summary of what was done, steps, and verification.
